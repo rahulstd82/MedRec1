@@ -9,11 +9,10 @@ app.use(express.static("public"));
 app.use(bodyParser.urlencoded({ extended: true }));
 
 const port = process.env.PORT || 3000;
+const mongoURL = process.env.db_URL;
 
-
-const mongoURL ="mongodb+srv://chandankumar700451:chandan700451@cluster0.kvvng.mongodb.net/Medease?retryWrites=true&w=majority";
 //mongoose.connect(mongoURL);
-// MongoDB Connection
+// MongoDB Connection  
 //const mongoURL = "mongodb://localhost:27017/MYStudent";
 mongoose.connect(mongoURL)
     .then(() => console.log("Connected to Database"))
