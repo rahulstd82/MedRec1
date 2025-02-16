@@ -14,6 +14,7 @@ const mongoURL = process.env.db_URL;
 //mongoose.connect(mongoURL);
 // MongoDB Connection  
 //const mongoURL = "mongodb://localhost:27017/MYStudent";
+//const mongoURL = "link of online db"
 mongoose.connect(mongoURL)
     .then(() => console.log("Connected to Database"))
     .catch((err) => console.error("Error connecting to Database:", err));
