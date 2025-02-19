@@ -12,13 +12,18 @@ MedRec is a secure platform designed to digitize medical records, enabling patie
 - **Efficient Communication**: Allows seamless sharing of medical records between healthcare providers.
 - **Paperless System**: Reduces paperwork and enhances healthcare management.
 
+## Live Preview
+
+You can check out how the project looks and functions by visiting the live demo:  
+🔗 **[MedRec Live Demo](https://medrec1.onrender.com/Frontpage.html)**
+
 ## Installation
 
 1. Clone the repository:
    ```sh
    git clone https://github.com/yourusername/medrec.git
-
-  2. Navigate to the project directory:
+   ```
+2. Navigate to the project directory:
    ```sh
    cd medrec
    ```
@@ -28,8 +33,8 @@ MedRec is a secure platform designed to digitize medical records, enabling patie
    pip install -r requirements.txt  # For backend (if applicable)
    ```
 4. Set up the environment variables (e.g., database credentials, API keys).
-   
-6. Start the application:
+
+5. Start the application:
    ```sh
    npm start  # For frontend
    python app.py  # For backend
@@ -41,7 +46,6 @@ MedRec is a secure platform designed to digitize medical records, enabling patie
 - **Backend**: Node.js/Express or Python/FastAPI (depending on your choice)
 - **Database**: PostgreSQL/MySQL
 - **Authentication**: ABHA ID-based authentication
-
 
 ## Usage
 
@@ -65,8 +69,9 @@ Contributions are welcome! Please follow these steps:
 4. Push to your branch: `git push origin feature-branch`
 5. Open a pull request.
 
-
 ## Contact
 
 For queries and support, reach out via email: [rahulc.connect@gmail.com](mailto:rahulc.connect@gmail.com)
 ```
+
+I've added the **Live Preview** section with the link to your project. Let me know if you need any modifications! 🚀
